@@ -1,0 +1,128 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color:#1D3557;
+    font-family: 'Spinnaker', sans-serif;
+    background-color: #EDE8EC;
+}
+
+img {
+    width: 100px;
+    max-width:100%;
+}
+
+#hero {
+    background-image: url("https://images.unsplash.com/photo-1549468057-5b7fa1a41d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
+    background-size: cover;
+    padding: 200px 0;
+    margin:0;
+}
+
+#hero-title,#hero-subtitle {
+    border-radius: 10px;
+    color:#fff;
+    max-width:600px;
+    box-shadow:0 0 10px black;
+}
+
+#hero-title {
+    text-transform: uppercase;
+    background-color: #1D3557;
+    padding: 20px 12px;
+}
+
+#activity-content {
+    justify-content: space-around;
+}
+
+#hero-subtitle {
+    background-color: #457B9D;
+    padding: 8px 28px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-img {
+    border-radius:50%;
+    transition: all 1s;
+}
+.activity {
+    column-gap:50px;
+}
+
+.activity div {
+    background-color:#FFBE4A;
+    padding:30px;
+    border-radius: 10px;
+    flex-basis:33.33%;
+    
+}
+
+
+.activity div:hover img {
+    width:200px;
+}
+
+#myPlaceUnderline {
+    border-bottom:7px solid #FFBE4A;
+}
+
+.container {
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    margin-top:50px;  
+    max-width:800px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.guide-section {
+    margin-top:50px;
+}
+
+.avatar {
+    width: 150px;
+    border-radius:10px;
+}
+
+
+.card {
+    background-color: #FFBE4A;
+    border-radius: 10px;
+    padding:23px 13px;
+    flex-direction:row-reverse;
+    column-gap:10px;
+    box-shadow: 0 10px #9B5309;
+}
+
+.card-avatar-img {
+    border-radius: 10px;
+    flex-basis:30%;
+}
+
+.guide-intro {
+    font-style: italic;
+}
